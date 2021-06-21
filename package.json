@@ -1,5 +1,5 @@
 {
-  "name": "@1coinswap/sdk",
+  "name": "@1coininc/swapsdk",
   "license": "MIT",
   "version": "5.0.1",
   "description": "🛠 An SDK for building applications on top of Sushiswap.",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/1coinswap/sdk",
+  "repository": "https://github.com/1coinswap/swapsdk",
   "keywords": [
     "uniswap",
     "sushiswap",
