@@ -113,13 +113,13 @@ export const WETH = {
     'WBNB',
     'Wrapped BNB'
   ),
-  [ChainId.ARBITRUM]: new Token(
-    ChainId.ARBITRUM,
-    '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
+  // [ChainId.ARBITRUM]: new Token(
+  //   ChainId.ARBITRUM,
+  //   '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+  //   18,
+  //   'WETH',
+  //   'Wrapped Ether'
+  // ),
   [ChainId.COINNET]: new Token(
     ChainId.COINNET,
     '0x375c48d716472e0496834e6C6A5cE518D09c7930',
@@ -127,20 +127,20 @@ export const WETH = {
     'W1CN',
     'Wrapped 1CN'
   ),
-  [ChainId.ARBITRUM_TESTNET]: new Token(
-    ChainId.ARBITRUM_TESTNET,
-    '0xf8456e5e6A225C2C1D74D8C9a4cB2B1d5dc1153b',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
-  [ChainId.MOONBEAM_TESTNET]: new Token(
-    ChainId.MOONBEAM_TESTNET,
-    '0xe73763DB808ecCDC0E36bC8E32510ED126910394',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
+  // [ChainId.ARBITRUM_TESTNET]: new Token(
+  //   ChainId.ARBITRUM_TESTNET,
+  //   '0xf8456e5e6A225C2C1D74D8C9a4cB2B1d5dc1153b',
+  //   18,
+  //   'WETH',
+  //   'Wrapped Ether'
+  // ),
+  // [ChainId.MOONBEAM_TESTNET]: new Token(
+  //   ChainId.MOONBEAM_TESTNET,
+  //   '0xe73763DB808ecCDC0E36bC8E32510ED126910394',
+  //   18,
+  //   'WETH',
+  //   'Wrapped Ether'
+  // ),
   [ChainId.AVALANCHE]: new Token(
     ChainId.AVALANCHE,
     '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
