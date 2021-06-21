@@ -35,6 +35,9 @@ export class Currency {
 
   public static readonly OKT: Currency = new Currency(18, 'OKT', 'OKExChain')
 
+  public static readonly CN: Currency = new Currency(18, '1CN', '1COIN')
+
+
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
@@ -58,7 +61,8 @@ export class Currency {
     [ChainId.HARMONY]: Currency.ONE,
     [ChainId.HARMONY_TESTNET]: Currency.ONE,
     [ChainId.OKEX]: Currency.OKT,
-    [ChainId.OKEX_TESTNET]: Currency.OKT
+    [ChainId.OKEX_TESTNET]: Currency.OKT,
+    [ChainId.COINNET]: Currency.CN
   }
 
   /**

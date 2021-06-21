@@ -120,6 +120,13 @@ export const WETH = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.COINNET]: new Token(
+    ChainId.COINNET,
+    '0x375c48d716472e0496834e6C6A5cE518D09c7930',
+    18,
+    'W1CN',
+    'Wrapped 1CN'
+  ),
   [ChainId.ARBITRUM_TESTNET]: new Token(
     ChainId.ARBITRUM_TESTNET,
     '0xf8456e5e6A225C2C1D74D8C9a4cB2B1d5dc1153b',

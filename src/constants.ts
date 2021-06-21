@@ -26,7 +26,8 @@ export enum ChainId {
   HARMONY = 1666600000,
   HARMONY_TESTNET = 1666700000,
   OKEX = 66,
-  OKEX_TESTNET = 65
+  OKEX_TESTNET = 65,
+  COINNET = 85
 }
 
 export enum TradeType {
@@ -65,7 +66,9 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.HARMONY_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.OKEX]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
-  [ChainId.OKEX_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4'
+  [ChainId.OKEX_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
+  [ChainId.COINNET]: '0x18dd45896Aa1B5c09E29D65060b44493C985B8c6',
+
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -91,7 +94,9 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.HARMONY_TESTNET]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.OKEX]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
-  [ChainId.OKEX_TESTNET]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506'
+  [ChainId.OKEX_TESTNET]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
+  [ChainId.COINNET]: '0xD3ee9911f89651eA092768380B959CD3585576f4',
+
 }
 
 export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
@@ -117,7 +122,8 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '0xBEC775Cb42AbFa4288dE81F387a9b1A3c4Bc552A',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '0x2218E0D5E0173769F5b4939a3aE423f7e5E4EAB7',
-  [ChainId.OKEX_TESTNET]: ''
+  [ChainId.OKEX_TESTNET]: '',
+  [ChainId.COINNET]: '',
 }
 
 export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
@@ -143,6 +149,8 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.COINNET]: '',
+
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -169,6 +177,8 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.COINNET]: '',
+
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -195,6 +205,8 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.COINNET]: '',
+
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -220,6 +232,7 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
+  [ChainId.COINNET]: '',
   [ChainId.OKEX]: '',
   [ChainId.OKEX_TESTNET]: ''
 }
@@ -247,6 +260,8 @@ export const BENTOBOX_ADDRESS: {
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
+  [ChainId.COINNET]: '',
+
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
   [ChainId.OKEX_TESTNET]: ''
@@ -275,6 +290,8 @@ export const KASHI_ADDRESS: {
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
+  [ChainId.COINNET]: '',
+
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
   [ChainId.OKEX_TESTNET]: ''
@@ -302,6 +319,7 @@ export const SUSHISWAP_SWAPPER_ADDRESS: {
   [ChainId.MOONBEAM_TESTNET]: '',
   [ChainId.AVALANCHE]: '',
   [ChainId.AVALANCHE_TESTNET]: '',
+  [ChainId.COINNET]: '',
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
@@ -330,6 +348,7 @@ export const SUSHISWAP_MULTISWAPPER_ADDRESS: {
   [ChainId.MOONBEAM_TESTNET]: '',
   [ChainId.AVALANCHE]: '',
   [ChainId.AVALANCHE_TESTNET]: '',
+  [ChainId.COINNET]: '',
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
@@ -356,6 +375,7 @@ export const SUSHISWAP_MULTI_EXACT_SWAPPER_ADDRESS = {
   [ChainId.MOONBEAM_TESTNET]: '',
   [ChainId.AVALANCHE]: '',
   [ChainId.AVALANCHE_TESTNET]: '',
+  [ChainId.COINNET]: '',
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
@@ -388,6 +408,7 @@ export const BORING_HELPER_ADDRESS = {
   [ChainId.ARBITRUM]: '',
   [ChainId.ARBITRUM_TESTNET]: '',
   [ChainId.MOONBEAM_TESTNET]: '',
+  [ChainId.COINNET]: '',
   [ChainId.AVALANCHE]: '',
   [ChainId.AVALANCHE_TESTNET]: '',
   [ChainId.HECO]: '',
